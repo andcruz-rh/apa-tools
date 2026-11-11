@@ -1,0 +1,67 @@
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Secrets / entorno local ---
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets/
+
+# --- Reportes assess (pueden contener rutas/metadatos sensibles) ---
+*-report.json
+*-report.md
+*-assess.json
+*-assess.md
+portafolio.csv
+**/report.json
+**/report.md
+
+# --- Excel temporales / Office ---
+~$*
+*.tmp
+*.temp
+
+# --- Docker ---
+*.log
+docker-compose.override.yml
+
+# --- IDE / editores ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Misc ---
+*.bak
+*.orig
+.cache/
